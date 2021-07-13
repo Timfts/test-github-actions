@@ -1,0 +1,5 @@
+node_modules/
+mock.json
+mock-fields.json
+.DS_STORE
+dist
