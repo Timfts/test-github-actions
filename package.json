@@ -5,12 +5,18 @@
   "main": "index.js",
   "scripts": {
     "clear-dist": "rimraf dist",
-    "build": "yarn clear-dist && tsc"
+    "test": "jest",
+    "test:watch": "NODE_ENV=test jest --watchAll",
+    "build": "yarn clear-dist && tsc",
+    "clear-jest": "jest --clearCache"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6",
     "rimraf": "^3.0.2",
+    "ts-jest": "^27.0.3",
     "typescript": "^4.3.5"
   }
 }
