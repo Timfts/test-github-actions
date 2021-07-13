@@ -1,4 +1,4 @@
 export default function runFunction(): boolean {
-  console.log("cenoura");
+  console.log("cenouraaa");
   return true;
 }
